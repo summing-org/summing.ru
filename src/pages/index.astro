@@ -150,6 +150,58 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       </div>
     </section>
 
+    <!-- СКРИНШОТЫ -->
+    <section
+      id="screens"
+      class="border-t border-slate-900/60 py-12 sm:py-16"
+    >
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <div class="space-y-3">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-white">
+            Интерфейс ОПОРЫ
+          </h2>
+          <p class="text-sm sm:text-base text-slate-300">
+            Ключевые экраны продукта — от рабочих пространств до сложных процессов.
+          </p>
+        </div>
+
+        <div class="grid gap-4 sm:gap-6 sm:grid-cols-2">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-2 sm:p-3">
+            <img
+              src="/screens/workspaces.png"
+              alt="ОПОРА — рабочие пространства"
+              class="w-full rounded-xl"
+              loading="lazy"
+            />
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-2 sm:p-3">
+            <img
+              src="/screens/workflows.png"
+              alt="ОПОРА — список процессов"
+              class="w-full rounded-xl"
+              loading="lazy"
+            />
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-2 sm:p-3">
+            <img
+              src="/screens/workflow1.png"
+              alt="ОПОРА — визуальный процесс"
+              class="w-full rounded-xl"
+              loading="lazy"
+            />
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-2 sm:p-3">
+            <img
+              src="/screens/workflow2-stats.png"
+              alt="ОПОРА — статистика процесса"
+              class="w-full rounded-xl"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- БЕТА-ДОСТУП -->
     <section
       id="beta"
@@ -158,21 +210,30 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
         <div class="space-y-3">
           <h2 class="text-2xl sm:text-3xl font-semibold text-white">
-            Бета-доступ к «ОПОРЕ»
+            Доступ к «ОПОРЕ» уже открыт
           </h2>
           <p class="text-sm sm:text-base text-slate-300">
-            Мы запускаем закрытую бету «ОПОРЫ» для команд, которым важно навести
-            порядок в интеграциях и автоматизации процессов.
+            Бета запущена — можно зайти, зарегистрироваться и сразу начать работу
+            с бесплатным аккаунтом.
           </p>
-          <p class="text-sm sm:text-base text-slate-300">
-            Если вы строите продукт, развиваете ИТ-ландшафт компании или отвечаете за
-            цифровую инфраструктуру — оставьте заявку, и мы свяжемся с вами.
-          </p>
+          <div class="pt-2">
+            <a
+              href="https://app.summing.ru/"
+              class="inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-medium
+                     bg-sky-500 hover:bg-sky-400 text-slate-950 transition-colors shadow-lg shadow-sky-500/20"
+            >
+              Перейти в приложение
+            </a>
+          </div>
         </div>
 
         <div
           class="rounded-2xl border border-slate-800 bg-slate-900/40 p-5 sm:p-6"
         >
+          <p class="text-sm sm:text-base text-slate-300 mb-4">
+            Нужна помощь с внедрением или enterprise-условия? Оставьте заявку — мы
+            свяжемся с вами.
+          </p>
           <form
             class="space-y-4"
             action="mailto:hello@summing.org"
